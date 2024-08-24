@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 1px;
+}
+
+input{
+    background-color: transparent;
+    height: 5vh;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1%;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    display:grid;
+    text-align: center;
+}
+
+nav h1{
+    color: rgb(101, 98, 243);
+}
+
+.in-center{
+    display:grid;
+    justify-content: center;
+}
+form{
+    width: 50vh;
+    margin: 3%;
+    padding: 2%;
+    border-radius: 3px;
+    background-color: rgb(223, 237, 255);
+}
+.getin{
+    padding: 2%;
+}
+form .getin p{
+    width: 40%;
+}
+
+form .getin input{
+    font-size:medium;
+    width: 60%;
+}
+
+.same_row{
+    width: 100%;
+    display: flex;
+}
+
+.getin{
+    font-weight: 1000;
+    color: rgb(5, 31, 80);
+}
+
+.but{
+    padding: 3%;
+    color: white;
+    width: 10pc;
+    background-color: rgb(79, 241, 79);
+    border: none;
+    border-radius: 2px;
+}
+.tablediv{
+    width: 90vh;
+}
+table{
+    width: 90%;
+    background-color: rgb(241, 241, 241);
+    border-radius: 3px;
+}
+td{
+    background-color: white;
+    height: 8vh;
+}
+.Actions{
+    display: flex;
+    justify-content: space-around;
+}
+.Actions button{
+    color: aliceblue;
+    height: 70%;
+    background-color: rgb(79, 149, 230);
+    border-radius: 5px;
+    border-width: 0;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(56, 56, 56, 0.7);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in-corner{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: none;
+    background-color: transparent; 
+}
+@media screen and (max-width: 400px){
+    .tablediv{
+        width: 50vh;
+    }
+  }
